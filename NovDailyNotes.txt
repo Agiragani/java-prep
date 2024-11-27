@@ -1,0 +1,105 @@
+on -1 off -0  ------------> ASCII / UNICODE 
+
+s.l:- designing of website
+
+p.l:- developing of application
+
+									computer lang
+								
+							scripting lang			programming lang
+							
+				html,css,js,ts......				pop     oop
+											
+										B,Basic,python.		java,.net,python,.....
+										
+	
+	SECURITY :- Abstraction , Encapsulation
+	
+	PERFORMANCE :- Inheritance , Polymorphism
+	
+	
+	java :-    oops     oopl
+	
+	
+	(1)Platform independency
+	
+	(2)Garbage collector
+	
+	
+	java:-sunmicro sys------------------------->oracle
+
+
+	greentalk(.gt)------------->oak------------->java(.java)
+	
+	
+	jdk 1.0------------------------------------> jdk 23
+	
+	
+	jse/j2se:- standalone app(no client-server)  -core java
+	
+	jee/j2ee:- distributed ,web app ...(client-server) -Adv java
+	
+	jme/j2me:- mobile app - micro core java
+	
+	
+	java --version
+	
+	
+	java - 53
+	
+	shortcuts:-
+	----------	
+	main :-  ctrl+space
+	
+	syso :- ctrl+space
+	
+	format :- ctrl+shift+f
+	
+	
+	variable :-
+	
+	syntax:-        datatype  variablename ;  //declaration of a variable
+	
+					datatype  variablename = value ; //intiallization of a variable
+					
+					
+			
+			local variable(within the method)					global variable(outside the methods)
+	
+														static g.v        instance g.v
+														
+syntax:-
+======
+	
+static:- static datatype  variablename = value ; 
+	
+instance :-  datatype  variablename = value ; 
+	
+memoryAllocation:-
+=================
+
+static:- Static prop's will gets the memory space only once at the time of class loading into the jvm
+
+instance :- Instance prop's will gets the memorty space for every object creation.
+
+
+Access:-
+======
+
+static :- Static prop's can be accessed by the class reference
+
+instance :- Instance prop's can be accessed by the object reference
+
+In the memory:-
+==============
+
+static :- Method Area
+
+instance :- Heap Area
+
+Usage:-
+=====
+
+static :- common data
+
+instance :- unique data
