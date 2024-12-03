@@ -117,7 +117,7 @@ operators:-ULTRA AB
 		
 		methods:- The set of statments where altogether performs the similar task.
 		
-		syntax:- 
+		signature/syntax:- 
 		
 					accessModifer returnType methodName(prams...){
 					
@@ -142,3 +142,82 @@ operators:-ULTRA AB
 					
 					//body
 					}
+					
+					
+					
+		class = variables + methods(class members + member functions)
+	
+	
+		obj:-   	ClassName objName ;   //declaration of an object 
+		====		
+					ClassName objName = new ClassName();
+					
+					
+					
+		Inheritance :-  Acquiring parent class features to the child class.
+		===========
+		
+				
+				extends 						implements
+			cls---->cls						int----------->cls
+			
+			int---->int
+			
+			
+	class A{    //   parent/super 
+	
+	1000 methods
+	}
+	
+	class B extends A{  //child/base/sub
+	
+	2 methods ============> 1002 methods
+	}
+	
+	
+	class A{					class B{
+	
+	add(a,b){					add(x,y){
+	
+	(a+b);						(x*y);
+	
+	}							}
+	
+	
+	class C extends A,B {
+	
+	obj.add(4,7); 
+	
+	}
+	
+	
+	
+	* Multiple Inheritance is not supported in java @ Class Level.
+	
+	* Multiple Inheritance is supported in java @interface Level.
+	
+	
+	methods :-  2 types---->based on the implementation/body
+	
+	
+	(1)concrete method:- the method with method body.
+	
+	
+	syntax:-   accessModifer returnType methodName(prams...){
+	------				
+					//body
+					}
+
+	
+	(2)abstract method:- the method without method body.
+	
+	syntax:-   accessModifer returnType methodName(prams...);
+	------
+	
+	
+	
+	class :-It is the only collection of concrete methods
+	
+	interface :- It is the only collection of abstract methods
+	
+	abstract class :-It is the combination of both abstract + concrete methods.
